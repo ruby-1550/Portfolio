@@ -1,0 +1,27 @@
+<!-- Needed to use html -->
+<!DOCTYPE html>
+<!-- Sets language to english -->
+<html lang="en">
+
+<head>
+    <!-- Supports all characters -->
+    <meta charset="UTF-8" />
+    <title> Movie Finder</title>
+    <!-- script.js is used to style -->
+    <script defer src="script.js"></script>
+    <!-- Type of stylesheet that is being used -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwind..." rel="stylesheet">
+</head>
+
+<!-- Body with gray border and padding -->
+
+<body class="bg-gray-100 p-6">
+    <div class="max-w-xl mx-auto text-center">
+        <h1 class="text-3xl font-bold mb-4">Movie Finder</h1>
+        <input id="searchInput" type="text" placeholder="Search for a movie..." class="border px-4 py-2 w-2/3 rounded">
+        <button id="searchButton" class="bg-blue-500 text-white px-4 py-2 rounded ml-2">Search</button>
+        <div id="results" class="mt-6 space-y-4"></div>
+    </div>
+</body>
+
+</html>
